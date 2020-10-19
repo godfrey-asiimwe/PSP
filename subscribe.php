@@ -3,21 +3,14 @@
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         # FIX: Replace this email with recipient email
-        $mail_to = "agtumusiime@gmail.com";
+        $mail_to = "acemu.nmm@gmail.com";
 
 
         $subject ="Add Me to the weekly digest";
         
         # Sender Data
-        $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
-        
-        if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
-            # Set a 400 (bad request) response code and exit.
-            http_response_code(400);
-            echo "Please complete the form and try again.";
-            exit;
-        }
-        
+        $email = $_POST["email"];
+      
         # Mail Content
         $content = "Email: $email\n\n";
 

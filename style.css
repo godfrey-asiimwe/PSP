@@ -1,39 +1,3 @@
-/*------------------------------------------------------------------
-.______    __  ___   ___  __   _______  ___________    ____ 
-|   _  \  |  | \  \ /  / |  | |   ____||   ____\   \  /   / 
-|  |_)  | |  |  \  V  /  |  | |  |__   |  |__   \   \/   /  
-|   ___/  |  |   >   <   |  | |   __|  |   __|   \_    _/   
-|  |      |  |  /  .  \  |  | |  |____ |  |        |  |     
-| _|      |__| /__/ \__\ |__| |_______||__|        |__|     
-
-
-@charset "utf-8";
-
-[Main Stylesheet]
-
-Project:    Apps Craft
-Version:    0.1
-Last change:    25/10/2017
-Primary use:    Apps Craft Minimal Template  
-
-
-================== Font Famil Used =================
-
-font-family: 'Poppins', sans-serif;
-
-
-[Typography]
-
-Body:               14px 'Poppins', sans-serif;
-Paragraph:          'Poppins', sans-serif;
-
-Section Title:      48px/1 'Poppins', sans-serif;
-Section Description:    14px/1 'Poppins', sans-serif;
-
-/*==============================
-[Table of contents]
--------------------------------------------------------------------*/
-
 
 /*--------------------------------------------------------------============================================================
 
@@ -264,10 +228,10 @@ p{
 .apps-craft-pricing-body h2,
 .apps-craft-contact-form-content h2 span,
 .apps-craft-accordion .panel-title a.collapsed:before {
-	color: #77ace7;
+	color:#FFC300 !important;
 }
 .apps-craft-btn.app-store-btn{
-	background-color: #77ace7;
+	background-color:#195e83;
 /*	background-image: -webkit-linear-gradient( 63deg, rgb(250,50,111) 0%, rgb(246,66,94) 53%, rgb(242,81,76) 100%, rgb(242,80,77) 100%);
 	background-image: -ms-linear-gradient( 63deg, rgb(250,50,111) 0%, rgb(246,66,94) 53%, rgb(242,81,76) 100%, rgb(242,80,77) 100%);*/
 }
@@ -2903,7 +2867,7 @@ body.apps-craft-v6 .apps-craft-video-content a i {
 .apps-craft-why-chose-txt p {
 	margin: 0;
 	/*color:;*/
-	word-break: break-all;
+	/*word-break: break-all;*/
 	font-size: 1.314em;
 }
 .apps-craft-why-choose-us-container {
@@ -3132,7 +3096,7 @@ blockquote.team-quote p {
 	padding: 50px 0;
 }
 .apps-craft-rating-and-bio{
-	width: 70%;
+	/*width: 70%;*/
 	float: left;
 	position: relative;
 }
@@ -3461,7 +3425,7 @@ blockquote.team-quote p {
 	left: 50%;
 }
 .apps-craft-now-available-section div.apps-craft-tbl {
-	height: 630px;
+	/*height: 630px;*/
 }
 .apps-craft-now-available-content {
 	width:80.6666667%;
@@ -3623,7 +3587,7 @@ body.apps-craft-v6 .apps-craft-subscribe-content {
 .apps-craft-accordion .panel-title a{
 	display: table-cell;
 	vertical-align: middle;
-	color: #FFFFFF;
+	/*color: #FFFFFF;*/
 	font-weight: 500;
 	font-size: 1.714em;
 	position: relative;
@@ -3677,7 +3641,7 @@ body.apps-craft-v6 .apps-craft-subscribe-content {
 	font-size: 1.3em;
 }
 .apps-craft-accordion .panel-title.click{
-	background-color: #FFFFFF;
+	/*background-color: #FFFFFF;*/
 	background-image: none;
 }
 .apps-craft-accordion .panel-title.click a{
@@ -3685,13 +3649,14 @@ body.apps-craft-v6 .apps-craft-subscribe-content {
 }
 
 .apps-craft-contact-form-content {
-	background-color: #fff;
+	background-color:#F4F4F4;
 	box-shadow: 0 0 32px rgba(0,0,0,.05);
 }
 .apps-craft-contact-form-content-inner {
 	width: calc(100% - 170px);
 	margin: 0 auto;
-	padding: 86px 0;
+	padding:90px 0;
+	padding-left: -30px;
 }
 .apps-craft-contact-form-content h2{
 	color: #666666;
@@ -3720,7 +3685,7 @@ body.apps-craft-v6 .apps-craft-subscribe-content {
 }
 .apps-craft-contact-form textarea {
 	resize: none;
-	height: 180px;
+	height: 80px;
 	padding: 25px;
 }
 .apps-craft-contact-form input[type="email"]:focus,
@@ -3750,7 +3715,7 @@ body.apps-craft-v6 .apps-craft-subscribe-content {
 	background-size: cover;
 	background-position: center center;
 	/*padding-bottom: 80px;*/
-	padding-top:70px;
+	padding-top:30px;
 	/*background-image: url(img/footer-bg.png);*/
 }
 .apps-craft-subscribe-form-box-shadow {

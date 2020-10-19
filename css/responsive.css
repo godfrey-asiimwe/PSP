@@ -686,8 +686,8 @@ body.apps-craft-solid-color #apps-craft-menu {
     font-size: 2.0em;
 }
 .apps-craft-btn.play-store-btn, .apps-craft-btn.app-store-btn {
-    width: 115px;
-    height: 45px;
+    /*width: 115px;
+    height: 45px;*/
     line-height: 30px;
     padding: 8px 15px;
 }
@@ -851,7 +851,7 @@ figure.apps-craft-why-chose-img img:last-child {
     margin-top: 35px;
 }
 .apps-craft-footer-section {
-    padding-top: 230px;
+    /*padding-top: 230px;*/
 }
 .apps-craft-contact-form-content-inner {
     width: calc(100% - 40px);
@@ -914,7 +914,7 @@ body.apps-craft-v3 .apps-craft-welcome-section .apps-craft-welcome-tbl {
     min-height: 450px;
 }
 .apps-craft-welcome-section-v4.apps-craft-welcome-section .apps-craft-welcome-tbl, .apps-craft-welcome-section-v4.apps-craft-welcome-section {
-    max-height: 550px;
+  /*  max-height: 550px;*/
     min-height: 0;
 }
 .apps-craft-video-bg .apps-craft-welcome-content p, .apps-craft-welcome-section-v3 .apps-craft-welcome-content p {
