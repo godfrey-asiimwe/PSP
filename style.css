@@ -1,40 +1,23 @@
+@font-face {
+	font-family: 'et-line';
+	src:url('fonts/PlayfairDisplay-Regular.ttf');
+	src:url('fonts/PlayfairDisplay-Bold.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
 
-/*--------------------------------------------------------------============================================================
-
-1. Apps Craft Typography
-2. Apps Ccraft Main Menu
-3. Apps Craft Welcome Section
-4. Apps Craft About
-5. Apps Craft Feature Section
-6. Apps Craft Video Section
-7. Apps Craft Fun Factory
-8. Apps Craft Why Choose Us
-9. Apps Craft Screenshort Section 
-10. Apps Craft Testimonial 
-11. Apps Craft Pricing Table
-12. Apps Craft Team
-13. Apps Craft now Available
-14. Apps Craft Subscribe
-15. Apps Craft FAQ Section
-16. Apps Craft Footer
-17. Apps Craft Magnific Custom Css
-18. Contact Form
-
-=============================================================--------------------------------------------------------------*/
-
-
-/*====================================================================== 
-		1. Apps Craft Typography 
-====================================================================================*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
 body {
-	 font-family: 'Balto';
-    font-weight: 300;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
+    /*font-weight: 300;*/
     font-style: normal;
 	font-size: 14px;
-	font-weight: 300;
+	/*font-weight: 300;*/
 	line-height: 1.5;
-	color: #666666;
+	/*color: #666666;*/
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	overflow-x: hidden;
@@ -91,9 +74,13 @@ ul {
 
 h1,h2,h3,h4,h5,h6,a,ul,li{
 	line-height: 1;
-	 font-family: 'Balto';
+	font-family: 'Playfair Display', serif;
     font-weight: bold;
     font-style: normal;
+}
+
+h2, h2 {
+    font-size: 33px !important;
 }
 
 p{
@@ -3637,7 +3624,7 @@ body.apps-craft-v6 .apps-craft-subscribe-content {
 	box-shadow: 0 0 32px rgba(0,0,0,.05);
 }
 .apps-craft-accordion .panel-collapse .panel-body{
-	color: #666666;
+	/*color: #666666;*/
 	font-size: 1.3em;
 }
 .apps-craft-accordion .panel-title.click{
